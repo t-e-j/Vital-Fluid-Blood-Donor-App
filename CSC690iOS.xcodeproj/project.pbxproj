@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82014BBF21C254F20074350B /* blood_donation_form.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 82014BBE21C254F10074350B /* blood_donation_form.pdf */; };
+		820DCE0821C26E85008AD34E /* WhatHappensToDonatedBloodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820DCE0721C26E85008AD34E /* WhatHappensToDonatedBloodViewController.swift */; };
+		820EA83021C24BA00064BE9B /* DownloadFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820EA82F21C24BA00064BE9B /* DownloadFormViewController.swift */; };
+		820F410921B9A2AB00B6E61E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 820F410721B9A2AB00B6E61E /* Main.storyboard */; };
+		8251775E21BF7D1C00EF3F3A /* BenefitsOfBloodDonationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8251775D21BF7D1C00EF3F3A /* BenefitsOfBloodDonationViewController.swift */; };
+		825993FC21C2761E00CB71E9 /* HowYourBodyReplacesBloodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825993FB21C2761E00CB71E9 /* HowYourBodyReplacesBloodViewController.swift */; };
+		8284496021C280DC005A1E92 /* EligibilityForDonatingBloodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8284495F21C280DC005A1E92 /* EligibilityForDonatingBloodViewController.swift */; };
+		82B2D52621C081A300F3BD10 /* TipsForBloodDonationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B2D52521C081A300F3BD10 /* TipsForBloodDonationViewController.swift */; };
+		82D4F28521B794DE00C16D25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D4F28421B794DE00C16D25 /* AppDelegate.swift */; };
+		82D4F28721B794DE00C16D25 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D4F28621B794DE00C16D25 /* InfoViewController.swift */; };
+		82D4F28C21B794DF00C16D25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82D4F28B21B794DF00C16D25 /* Assets.xcassets */; };
+		82D4F28F21B794DF00C16D25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82D4F28D21B794DF00C16D25 /* LaunchScreen.storyboard */; };
+		82D4F29A21B794DF00C16D25 /* CSC690iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D4F29921B794DF00C16D25 /* CSC690iOSTests.swift */; };
+		C087F4BE21C5E4CD00B0F46E /* profileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C087F4BD21C5E4CD00B0F46E /* profileViewController.swift */; };
+		C087F4C221C5E52900B0F46E /* calendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C087F4C121C5E52900B0F46E /* calendarViewController.swift */; };
+		C087F4C421C5E5AC00B0F46E /* CalendarVars.swift in Sources */ = {isa = PBXBuildFile; fileRef = C087F4C321C5E5AC00B0F46E /* CalendarVars.swift */; };
+		C087F4C621C5E5CD00B0F46E /* DateCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C087F4C521C5E5CD00B0F46E /* DateCollectionView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		82D4F29621B794DF00C16D25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82D4F27921B794DE00C16D25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82D4F28021B794DE00C16D25;
+			remoteInfo = CSC690iOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		82014BBE21C254F10074350B /* blood_donation_form.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = blood_donation_form.pdf; sourceTree = "<group>"; };
+		820DCE0721C26E85008AD34E /* WhatHappensToDonatedBloodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatHappensToDonatedBloodViewController.swift; sourceTree = "<group>"; };
+		820EA82F21C24BA00064BE9B /* DownloadFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadFormViewController.swift; sourceTree = "<group>"; };
+		820F410821B9A2AB00B6E61E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8251775D21BF7D1C00EF3F3A /* BenefitsOfBloodDonationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BenefitsOfBloodDonationViewController.swift; sourceTree = "<group>"; };
+		825993FB21C2761E00CB71E9 /* HowYourBodyReplacesBloodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowYourBodyReplacesBloodViewController.swift; sourceTree = "<group>"; };
+		8284495F21C280DC005A1E92 /* EligibilityForDonatingBloodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EligibilityForDonatingBloodViewController.swift; sourceTree = "<group>"; };
+		82B2D52521C081A300F3BD10 /* TipsForBloodDonationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsForBloodDonationViewController.swift; sourceTree = "<group>"; };
+		82D4F28121B794DE00C16D25 /* CSC690iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CSC690iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82D4F28421B794DE00C16D25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		82D4F28621B794DE00C16D25 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		82D4F28B21B794DF00C16D25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		82D4F28E21B794DF00C16D25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		82D4F29021B794DF00C16D25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82D4F29521B794DF00C16D25 /* CSC690iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CSC690iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		82D4F29921B794DF00C16D25 /* CSC690iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSC690iOSTests.swift; sourceTree = "<group>"; };
+		82D4F29B21B794DF00C16D25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C087F4BD21C5E4CD00B0F46E /* profileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileViewController.swift; sourceTree = "<group>"; };
+		C087F4C121C5E52900B0F46E /* calendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calendarViewController.swift; sourceTree = "<group>"; };
+		C087F4C321C5E5AC00B0F46E /* CalendarVars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarVars.swift; sourceTree = "<group>"; };
+		C087F4C521C5E5CD00B0F46E /* DateCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateCollectionView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82D4F27E21B794DE00C16D25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82D4F29221B794DF00C16D25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82D4F27821B794DE00C16D25 = {
+			isa = PBXGroup;
+			children = (
+				82D4F28321B794DE00C16D25 /* CSC690iOS */,
+				82D4F29821B794DF00C16D25 /* CSC690iOSTests */,
+				82D4F28221B794DE00C16D25 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82D4F28221B794DE00C16D25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82D4F28121B794DE00C16D25 /* CSC690iOS.app */,
+				82D4F29521B794DF00C16D25 /* CSC690iOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82D4F28321B794DE00C16D25 /* CSC690iOS */ = {
+			isa = PBXGroup;
+			children = (
+				82014BBE21C254F10074350B /* blood_donation_form.pdf */,
+				82D4F28421B794DE00C16D25 /* AppDelegate.swift */,
+				820DCE0721C26E85008AD34E /* WhatHappensToDonatedBloodViewController.swift */,
+				8284495F21C280DC005A1E92 /* EligibilityForDonatingBloodViewController.swift */,
+				C087F4C521C5E5CD00B0F46E /* DateCollectionView.swift */,
+				82D4F28621B794DE00C16D25 /* InfoViewController.swift */,
+				C087F4C121C5E52900B0F46E /* calendarViewController.swift */,
+				C087F4C321C5E5AC00B0F46E /* CalendarVars.swift */,
+				C087F4BD21C5E4CD00B0F46E /* profileViewController.swift */,
+				825993FB21C2761E00CB71E9 /* HowYourBodyReplacesBloodViewController.swift */,
+				820F410721B9A2AB00B6E61E /* Main.storyboard */,
+				820EA82F21C24BA00064BE9B /* DownloadFormViewController.swift */,
+				82B2D52521C081A300F3BD10 /* TipsForBloodDonationViewController.swift */,
+				8251775D21BF7D1C00EF3F3A /* BenefitsOfBloodDonationViewController.swift */,
+				82D4F28B21B794DF00C16D25 /* Assets.xcassets */,
+				82D4F28D21B794DF00C16D25 /* LaunchScreen.storyboard */,
+				82D4F29021B794DF00C16D25 /* Info.plist */,
+			);
+			path = CSC690iOS;
+			sourceTree = "<group>";
+		};
+		82D4F29821B794DF00C16D25 /* CSC690iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				82D4F29921B794DF00C16D25 /* CSC690iOSTests.swift */,
+				82D4F29B21B794DF00C16D25 /* Info.plist */,
+			);
+			path = CSC690iOSTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82D4F28021B794DE00C16D25 /* CSC690iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82D4F29E21B794DF00C16D25 /* Build configuration list for PBXNativeTarget "CSC690iOS" */;
+			buildPhases = (
+				82D4F27D21B794DE00C16D25 /* Sources */,
+				82D4F27E21B794DE00C16D25 /* Frameworks */,
+				82D4F27F21B794DE00C16D25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CSC690iOS;
+			productName = CSC690iOS;
+			productReference = 82D4F28121B794DE00C16D25 /* CSC690iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		82D4F29421B794DF00C16D25 /* CSC690iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82D4F2A121B794DF00C16D25 /* Build configuration list for PBXNativeTarget "CSC690iOSTests" */;
+			buildPhases = (
+				82D4F29121B794DF00C16D25 /* Sources */,
+				82D4F29221B794DF00C16D25 /* Frameworks */,
+				82D4F29321B794DF00C16D25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82D4F29721B794DF00C16D25 /* PBXTargetDependency */,
+			);
+			name = CSC690iOSTests;
+			productName = CSC690iOSTests;
+			productReference = 82D4F29521B794DF00C16D25 /* CSC690iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82D4F27921B794DE00C16D25 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Tejasvi Belsare";
+				TargetAttributes = {
+					82D4F28021B794DE00C16D25 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					82D4F29421B794DF00C16D25 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 82D4F28021B794DE00C16D25;
+					};
+				};
+			};
+			buildConfigurationList = 82D4F27C21B794DE00C16D25 /* Build configuration list for PBXProject "CSC690iOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82D4F27821B794DE00C16D25;
+			productRefGroup = 82D4F28221B794DE00C16D25 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82D4F28021B794DE00C16D25 /* CSC690iOS */,
+				82D4F29421B794DF00C16D25 /* CSC690iOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82D4F27F21B794DE00C16D25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				820F410921B9A2AB00B6E61E /* Main.storyboard in Resources */,
+				82014BBF21C254F20074350B /* blood_donation_form.pdf in Resources */,
+				82D4F28F21B794DF00C16D25 /* LaunchScreen.storyboard in Resources */,
+				82D4F28C21B794DF00C16D25 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82D4F29321B794DF00C16D25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82D4F27D21B794DE00C16D25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				820DCE0821C26E85008AD34E /* WhatHappensToDonatedBloodViewController.swift in Sources */,
+				8251775E21BF7D1C00EF3F3A /* BenefitsOfBloodDonationViewController.swift in Sources */,
+				C087F4BE21C5E4CD00B0F46E /* profileViewController.swift in Sources */,
+				825993FC21C2761E00CB71E9 /* HowYourBodyReplacesBloodViewController.swift in Sources */,
+				C087F4C621C5E5CD00B0F46E /* DateCollectionView.swift in Sources */,
+				82B2D52621C081A300F3BD10 /* TipsForBloodDonationViewController.swift in Sources */,
+				82D4F28721B794DE00C16D25 /* InfoViewController.swift in Sources */,
+				82D4F28521B794DE00C16D25 /* AppDelegate.swift in Sources */,
+				8284496021C280DC005A1E92 /* EligibilityForDonatingBloodViewController.swift in Sources */,
+				C087F4C221C5E52900B0F46E /* calendarViewController.swift in Sources */,
+				C087F4C421C5E5AC00B0F46E /* CalendarVars.swift in Sources */,
+				820EA83021C24BA00064BE9B /* DownloadFormViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82D4F29121B794DF00C16D25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82D4F29A21B794DF00C16D25 /* CSC690iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		82D4F29721B794DF00C16D25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82D4F28021B794DE00C16D25 /* CSC690iOS */;
+			targetProxy = 82D4F29621B794DF00C16D25 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		820F410721B9A2AB00B6E61E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				820F410821B9A2AB00B6E61E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		82D4F28D21B794DF00C16D25 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82D4F28E21B794DF00C16D25 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82D4F29C21B794DF00C16D25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		82D4F29D21B794DF00C16D25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82D4F29F21B794DF00C16D25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MPPBNFQUJK;
+				INFOPLIST_FILE = CSC690iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tejasvibelsare.CSC690iOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		82D4F2A021B794DF00C16D25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MPPBNFQUJK;
+				INFOPLIST_FILE = CSC690iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tejasvibelsare.CSC690iOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		82D4F2A221B794DF00C16D25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MPPBNFQUJK;
+				INFOPLIST_FILE = CSC690iOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tejasvibelsare.CSC690iOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CSC690iOS.app/CSC690iOS";
+			};
+			name = Debug;
+		};
+		82D4F2A321B794DF00C16D25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MPPBNFQUJK;
+				INFOPLIST_FILE = CSC690iOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tejasvibelsare.CSC690iOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CSC690iOS.app/CSC690iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82D4F27C21B794DE00C16D25 /* Build configuration list for PBXProject "CSC690iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82D4F29C21B794DF00C16D25 /* Debug */,
+				82D4F29D21B794DF00C16D25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82D4F29E21B794DF00C16D25 /* Build configuration list for PBXNativeTarget "CSC690iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82D4F29F21B794DF00C16D25 /* Debug */,
+				82D4F2A021B794DF00C16D25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82D4F2A121B794DF00C16D25 /* Build configuration list for PBXNativeTarget "CSC690iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82D4F2A221B794DF00C16D25 /* Debug */,
+				82D4F2A321B794DF00C16D25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82D4F27921B794DE00C16D25 /* Project object */;
+}
